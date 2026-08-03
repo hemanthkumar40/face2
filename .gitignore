@@ -1,0 +1,22 @@
+# Root ignore patterns
+# Node
+**/node_modules/
+**/dist/
+**/build/
+**/.cache/
+**/package-lock.json
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.venv/
+# Environment
+**/.env
+**/.env.local
+**/.env.*.local
+# IDE
+.vscode/
+*.log
+*.sqlite3
+# OS
+.DS_Store
